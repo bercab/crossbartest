@@ -1,0 +1,10 @@
+version: '2'
+services:
+  crossbar:
+    build: crossbar
+    ports:
+     - "8080:8080"
+  app1:
+    build: app1
+  client:
+    build: client

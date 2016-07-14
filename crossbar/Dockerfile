@@ -1,0 +1,2 @@
+FROM crossbario/crossbar
+
